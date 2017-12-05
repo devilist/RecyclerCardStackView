@@ -215,7 +215,7 @@ public class PokerCardManager extends CardManager {
         float rotateDegree = offset_x == 0 ? 0 : (float) Math.asin(touchX / mScreenWidth);
         rotateDegree = (float) (rotateDegree * 180 / Math.PI);
         // deg factor to make the rotate more smooth
-        rotateDegree = rotateDegree * factor;
+        // rotateDegree = rotateDegree * factor;
         card.setRotation(rotateDegree);
         refreshOtherVisibleCardsPosition(offset_x, offset_y);
     }

@@ -29,7 +29,6 @@ import android.util.AttributeSet;
 
 public class CardRecyclerView extends RecyclerView {
 
-
     public CardRecyclerView(Context context) {
         this(context, null);
     }
