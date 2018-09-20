@@ -57,6 +57,7 @@ public class CardStackActivity extends AppCompatActivity implements RCSAdapter.O
     }
 
     private void initView() {
+        findViewById(R.id.tv_load).setVisibility(View.GONE);
         crv_list = findViewById(R.id.crv_list);
         RCSAdapter adapter = new RCSAdapter(this);
         adapter.addData(appInfolist);
